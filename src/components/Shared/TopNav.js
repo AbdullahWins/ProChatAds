@@ -23,7 +23,7 @@ const TopNav = () => {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            to="https://netrocreative.com/"
+            to="https://www.aiassistant.biz/"
           >
             <button className="text-btnNavColor hover:text-btnHoverColor">
               Our Website
