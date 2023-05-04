@@ -1,9 +1,4 @@
 import React from "react";
-import qrCode from "../../assets/qr/QR.png";
-import appStore from "../../assets/img/appStore.svg";
-import playStore from "../../assets/img/playStore.svg";
-import apk from "../../assets/img/apk.svg";
-import line from "../../assets/img/line.svg";
 
 const Download = () => {
   return (
@@ -18,38 +13,58 @@ const Download = () => {
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 py-6">
             <a
-              href="https://stackoverflow.com/users/19174477/abdullahwins"
+              href="https://play.google.com/store/apps/details?id=com.netrocreative.jazakallah"
               target="blank"
             >
               <button className="">
-                <img src={appStore} alt="" />
+                <img
+                  className="h-10"
+                  src="https://i.ibb.co/YhCPF56/Google-Play.png"
+                  alt=""
+                />
               </button>
             </a>
             <a
-              href="https://stackoverflow.com/users/19174477/abdullahwins"
+              href="https://apps.apple.com/us/app/apple-books/id364709193"
               target="blank"
             >
               <button className="">
-                <img src={playStore} alt="" />
+                <img
+                  className="h-10"
+                  src="https://i.ibb.co/DQQhR75/App-Store.png"
+                  alt=""
+                />
               </button>
             </a>
             <a
-              href="https://stackoverflow.com/users/19174477/abdullahwins"
+              href="https://drive.google.com/file/d/1nDjaxm2htVNGSsY_wE9ZQhUnQnnnQ6Nc/view?usp=sharing"
               target="blank"
             >
               <button className="">
-                <img src={apk} alt="" />
+                <img
+                  className="h-10"
+                  src="https://i.ibb.co/Qp9xfQk/Mac-App-Store.png"
+                  alt=""
+                />
               </button>
             </a>
           </div>
         </div>
         <div className="col-span-1 flex items-start justify-center gap-8">
           <div className="hidden md:flex justify-center opacity-30 pt-10">
-            <img className="h-28" src={line} alt="" />
+            <img
+              className="h-28"
+              src="https://i.ibb.co/zN2PyN7/Vertical-Line.png"
+              alt=""
+            />
           </div>
           <div className="flex flex-col items-start justify-center">
             <p className="text-lg font-bold pb-2">Scan QR code</p>
-            <img className="w-28" src={qrCode} alt="" />
+            <img
+              className="w-28"
+              src="https://i.ibb.co/TR4mxWK/QR.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
