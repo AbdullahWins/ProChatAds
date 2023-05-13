@@ -13,7 +13,7 @@ const Download = () => {
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 py-6">
             <a
-              href="https://play.google.com/store/apps/details?id=com.netrocreative.jazakallah"
+              href="https://play.google.com/store/apps/details?id=com.aiassistant.biz"
               target="blank"
             >
               <button className="">
@@ -25,7 +25,7 @@ const Download = () => {
               </button>
             </a>
             <a
-              href="https://apps.apple.com/us/app/apple-books/id364709193"
+              href="https://apps.apple.com/us/app/biz-ai-business-ai-assistant/id6449032075"
               target="blank"
             >
               <button className="">
@@ -62,7 +62,7 @@ const Download = () => {
             <p className="text-lg font-bold pb-2">Scan QR code</p>
             <img
               className="w-28"
-              src="https://i.ibb.co/TR4mxWK/QR.png"
+              src="https://i.ibb.co/V2dkzTh/QR.jpg"
               alt=""
             />
           </div>
